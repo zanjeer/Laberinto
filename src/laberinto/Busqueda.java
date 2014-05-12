@@ -26,14 +26,10 @@ public class Busqueda {
 	
 	
 		public void resultado(){
-			//StringBuilder str;
 			char [][] dibujoLaberinto;
 	        ArrayList<Estado> resultado = buscar();
-	        //int tam;
-	      
+	       	      
 	        if(resultado.isEmpty()) System.out.println("sin resultado");;
-	        
-	        
 	        
 	        dibujoLaberinto = getMapaDibujado();
 	        

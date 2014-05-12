@@ -35,7 +35,6 @@ public class Estado {
 	    public boolean equals(Object obj) {
 	        if(!(obj instanceof Estado)) return false;
 	        return cel.equals(((Estado)obj).getCel());
-	        //return((Estado)obj).getCel().equals(this.getCel());
 	    }
 
 		@Override
