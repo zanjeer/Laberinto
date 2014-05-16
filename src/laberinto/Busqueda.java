@@ -1,6 +1,8 @@
 package laberinto;
 import java.util.ArrayList;
+
 import modelo.Celda;
+import modelo.Estado;
 import modelo.Laberinto;
 
 public class Busqueda {
@@ -9,7 +11,7 @@ public class Busqueda {
 		private Estado actual;
 		private Estado meta;
 		 private final char[][] laberinto = {{'#', '#', '#', '#', '#'},
-							                 {' ', ' ', '#', ' ', ' '},
+							                 {' ', ' ', ' ', ' ', ' '},
 							                 {'#', ' ', '#', ' ', '#'},
 							                 {'#', ' ', '#', ' ', '#'},
 							                 {'#', ' ', '#', ' ', '#'},

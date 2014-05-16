@@ -1,5 +1,6 @@
 package laberinto;
 import modelo.Celda;
+import modelo.Estado;
 import modelo.Laberinto;
 
 
@@ -23,7 +24,7 @@ public class Main {
 	        
 	        c1[1][0] = new Celda(1,0,new String("C"));
 	        c1[1][1] = new Celda(1,1,new String("C"));
-	        c1[1][2] = new Celda(1,2,new String("P"));
+	        c1[1][2] = new Celda(1,2,new String("C"));
 	        c1[1][3] = new Celda(1,3,new String("C"));
 	        c1[1][4] = new Celda(1,4,new String("C"));
 	        

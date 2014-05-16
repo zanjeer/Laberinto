@@ -1,5 +1,4 @@
 package modelo;
-import laberinto.Estado;
 
 public class Laberinto {
 		private Celda[][] celdas;
